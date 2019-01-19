@@ -23,7 +23,7 @@ a{
 a:link{ color: #ffff; text-decoration: none}
 a:active{ color: #ffff; text-decoration: none}
 a:visited{ color: #ffff; text-decoration: none}
-a:hover{ color: #00FF00; text-decoration: underline}
+a:hover{ color: #dce910; text-decoration: underline}
 
 li{
 	display:flex;
@@ -165,6 +165,7 @@ font-size:26px;}
 	padding:2rem;
 	alignment-baseline: auto;
 	
+	
 }
 .formacion{
 	flex: 1 1 auto;
@@ -185,7 +186,6 @@ font-size:26px;}
 	background-image: linear-gradient(to left, #3d9994, #326663);
 	opacity: .9;
   	transition: 0.3s;
-  	flex-shrink: 0;
 }
 
 .title:hover{
@@ -202,9 +202,15 @@ font-size:26px;}
 		flex-direction: column;
 		align-items: center;
 	}
-	.perfil{
-		width: 100%;
+
+	.logo{
+
 		text-align: center;
+
+	}
+	.perfil {
+		width: 100%;
+		text-align: justify;
 	}
 
 	.contenido{
@@ -213,13 +219,14 @@ font-size:26px;}
 	}
 
 	.centro{
+		display: flex;
 		order: -1;
 		width: 100%;
-		text-align: center;
+		text-align:justify;
 	}
 	.izquierda{
 		width: 100%;
-		text-align: center;
+		text-align: justify;
 	}
 	
 	.p1{
@@ -228,16 +235,17 @@ font-size:26px;}
 		text-decoration: overline;
 	}
 	.title{
-
+	display: flex;
+	justify-content: center;
 	width: 35%;
 	padding: 1rem;
 	color:#ffff;
 	background-image: linear-gradient(to left, #3d9994, #326663);
 	opacity: .9;
-  	transition: 0.3s;
-  	flex-shrink: 0;
-  	opacity: 1;
 	width: 100%;
 	font-size: 20px;
+	
 			}
+
+	
 }
