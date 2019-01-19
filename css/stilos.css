@@ -145,7 +145,6 @@ font-size:26px;}
 	text-decoration-color: #ffff;
 	font-size: 20px;
 	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	flex-shrink: 0;
 }
 
 
@@ -228,4 +227,17 @@ font-size:26px;}
 		font-style:oblique;
 		text-decoration: overline;
 	}
+	.title{
+
+	width: 35%;
+	padding: 1rem;
+	color:#ffff;
+	background-image: linear-gradient(to left, #3d9994, #326663);
+	opacity: .9;
+  	transition: 0.3s;
+  	flex-shrink: 0;
+  	opacity: 1;
+	width: 100%;
+	font-size: 20px;
+			}
 }
