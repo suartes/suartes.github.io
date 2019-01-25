@@ -1,7 +1,7 @@
 html{
 	box-sizing: border-box;
 	font-family: sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 	background-image: linear-gradient(to top right, #fbdd9f, #faebcc);
 }
 *,
@@ -62,13 +62,13 @@ font-size:26px;}
 .contenido span {
 	padding: .4rem;
 	border: .2rem;
-	font-size: 18px;
+	font-size: 1rem;
 	font-family:Geneva, Tahoma, Verdana, sans-serif;
 }
 
 
 .perfil h1{
-	font-size: 70px;
+	font-size: 4.5rem;
 }
 .ulises{
 	color:#339999;
@@ -96,10 +96,7 @@ font-size:26px;}
 	display: flex;
 	height: 35%;
 	background-image:url(../fotos/fondo-madera1.jpg);	
-	overflow: hidden;
-	top: 0;
-	width: 100%
-	flex-shrink: 0;
+	width: 100%;
 
 
 }
@@ -109,16 +106,14 @@ font-size:26px;}
 	align-items: center;
 	justify-content: center;
 	width: 29%;
-	flex-shrink: 0;
 	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
 .perfil{
 	width: 71%;
 	padding: 1rem;
-	background-color:#f8f1f1;
-	opacity: 0.8;
-	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background-color:rgba(248,241,241, 0.8);
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2) inset;
 	flex-shrink: 0;
 }
 
@@ -131,9 +126,7 @@ font-size:26px;}
 
 .contenido{	
 	display: flex;
-	flex-shrink: 1;
-	flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
-    overflow-y: auto;  /*adds scroll to this container*/
+
 	}
 
 .izquierda{
@@ -143,8 +136,8 @@ font-size:26px;}
 	background-image: linear-gradient(to left, #326663, #66bab5);
 	width: 29%;
 	text-decoration-color: #ffff;
-	font-size: 20px;
-	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	font-size: 1rem;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2) inset;
 }
 
 
@@ -156,8 +149,7 @@ font-size:26px;}
 	flex-direction: column;
 	background-color:#e2dede;
 	width: 71%; 
-	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	flex-shrink: 1;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2) inset;
 }
 
 .experiencia{
@@ -170,7 +162,6 @@ font-size:26px;}
 .formacion{
 	flex: 1 1 auto;
 	padding: 2rem;
-	flex-shrink: 0;
 }
 .cursos{
 	flex: 1 1 auto;
@@ -184,14 +175,12 @@ font-size:26px;}
 	padding: 1rem;
 	color:#ffff;
 	background-image: linear-gradient(to left, #3d9994, #326663);
-	opacity: .9;
   	transition: 0.3s;
 }
 
 .title:hover{	
-	opacity: 1;
 	width: 100%;
-	font-size: 20px
+	font-size: 1.2rem;
 }
 
 .sr-only {
@@ -208,10 +197,10 @@ font-size:26px;}
 .scroll-to-top{
   text-decoration: none;
   position: fixed; 
-  top: 20px;
-  right: 20px;
+  top: .8rem;
+  right: .8rem;
   display: none;
-  font-size: 100px;
+  font-size: 4rem;
   color: #555;
 }
 
