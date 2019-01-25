@@ -243,7 +243,7 @@ font-size:26px;}
 	}
 	
 	.p1{
-		font-size:100px;
+		font-size:4rem;
 		font-style:oblique;
 		text-decoration: overline;
 	}
@@ -254,9 +254,8 @@ font-size:26px;}
 	padding: 1rem;
 	color:#ffff;
 	background-image: linear-gradient(to left, #3d9994, #326663);
-	opacity: .9;
 	width: 100%;
-	font-size: 20px;
+	font-size: 1.2rem;
 	
 			}
 
